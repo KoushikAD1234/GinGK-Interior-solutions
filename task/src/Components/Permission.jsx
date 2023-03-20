@@ -22,11 +22,24 @@ import {
   Paper,
 } from "@material-ui/core";
 import { TablePagination } from '@mui/material';
+import { makeStyles } from '@material-ui/core/styles';
+
 
 // import TablePagination from '@mui/lab';
 import records from "./data.json";
 
+
+const useStyles = makeStyles({
+  evenRow: {
+    background: '#E5FFCC', // or any other shade of gray you prefer
+  },
+  oddRow: {
+    background: '#ffffff', // or any other color you prefer for odd rows
+  },
+});
+
 function Permission() {
+  const classes = useStyles();
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(7);
 
@@ -114,7 +127,10 @@ function Permission() {
             </TableHead>
             <TableBody>
               {records.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row, index) => (
-                <TableRow key={index}>
+                <TableRow 
+                    key={index}
+                    className={index % 2 === 0 ? classes.evenRow : classes.oddRow}
+                  >
                   <TableCell>{row.sr}</TableCell>
                   <TableCell>{row.name}</TableCell>
                   <TableCell>{row.email}</TableCell>
