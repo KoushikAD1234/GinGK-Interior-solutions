@@ -1,0 +1,45 @@
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  flex: 0.85;
+  background-color: white;
+  height: 100vh;
+  width: 1000px;
+}
+
+.header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.profile {
+    margin-right: -215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profileImg {
+    height: 50px;
+}
+
+.profileName {
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.subName {
+    font-size: 10px;
+}
+
+.dash{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}

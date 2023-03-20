@@ -1,0 +1,149 @@
+.dashboard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0.19;
+    width: 100px;
+    height:750px;
+    background-color: rgb(243, 240, 240);
+    z-index: 1;
+    
+}
+
+.logo_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    position: relative;
+    width: 170px;
+    height: 83px;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 168px;
+}
+
+.menu_name{
+    width: 1px;
+}
+
+.menu_head{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 23px;
+    width: 100%;
+}
+
+.icon {
+    margin-left: -2px;
+    margin-right: 7px;
+    transform: scale(0.7);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    /* white-space: pre; */
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 12.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 111);
+    width: 10px;
+}
+
+
+.logout{
+    text-decoration: none;
+    color: red;;
+    display: flex;
+    justify-content: center;
+    margin-top: 177px;
+    
+}
+
+.text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logout_icon {
+    padding-right: 0px;
+    margin-top: 9px;
+}
+
+
+.plus1 {
+    /* transform: translateX(-50%); */
+    /* margin-left: 110px; */
+    position: absolute;
+    left: 255px;
+    cursor: pointer;
+    transform: scale(0.7);
+    /* margin-left: 116px; */
+    /* margin-right: 116px; */
+}
+
+.plus2 {
+    /* margin-left: 107px; */
+    cursor: pointer;
+    transform: scale(0.7);
+    margin-left: 97px;
+}
+.plus3 {
+    /* margin-left: 100px; */
+    cursor: pointer;
+    transform: scale(0.7);
+    margin-left: 87px;
+}
+.plus4 {
+    /* margin-left: 100px; */
+    cursor: pointer;
+    transform: scale(0.7);
+    margin-left: 65px;
+}
+.plus5 {
+    /* margin-left: 100px; */
+    cursor: pointer;
+    transform: scale(0.7);
+    margin-left: 70px;
+}
+
+.link.active{
+    color: red;
+}
+
+@media only screen and (min-width: 480px){
+    .link {
+      width: 400px !important;
+      margin-right: 10px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width: 480px){
+    .link{
+      width: 100px !important;
+      padding-right:min-content !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+    .link{
+      width: auto !important;
+      padding-right: 2px !important;
+    }
+  }
+
+.link a:focus{
+    color: green !important;
+    font-weight: bold !important;
+}
+

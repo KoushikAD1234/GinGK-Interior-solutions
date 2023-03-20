@@ -1,0 +1,233 @@
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0.85 !important;
+    background-color: white;
+    height: 100vh;
+    z-index: 2;
+}
+
+/* .header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.profile {
+    margin-right: -26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profileImg {
+    height: 50px;
+}
+
+.profileName {
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.subName {
+    font-size: 10px;
+}  */
+
+.dash{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.cards {
+    margin-left: 40px;
+    margin-top: 33px;
+    display: flex;
+    height: 137px;
+}
+
+.card1 {
+    background-color: rgb(35, 178, 234);
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    border-radius: 10px;
+    color: white;
+    cursor:pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease-out;
+}
+.card2 {
+    background-color: rgb(5, 5, 135);
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 301px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease-out;
+}
+.card3 {
+    background-color: rgb(226, 176, 69);
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 603px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease-out;
+}
+.card4 {
+    background-color: rgb(245, 175, 61);
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 908px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease-out;
+}
+
+.card1:hover{
+    transform: scale(1.09)
+}
+.card2:hover{
+    transform: scale(1.09)
+}
+.card3:hover{
+    transform: scale(1.09)
+}
+.card4:hover{
+    transform: scale(1.09)
+}
+
+
+.value {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    font-size: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1 {
+    width: 200px;
+    margin-top: 5px;
+}
+.text2 {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.symbol {
+    margin-right: 23px;
+    transform: scale(2.0);
+    margin-top: 5px;
+}
+
+.charts {
+    display: flex;
+}
+
+.chart1 {
+    border: 2px solid rgb(227, 224, 224);
+    margin-left: 40px;
+    width: 550px;
+    height: 487px;
+    border-radius: 10px;
+}
+
+.chart_head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 17px;
+}
+
+.head1 {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 19, 84);
+}
+
+.head2{
+    font-size: 10px;
+    color: rgb(133, 133, 133);
+    margin-top: 4px;
+}
+
+.pie{
+    display: flex;
+    height: 200px;
+}
+
+.progress1{
+    margin-left: 20px;
+    height: 18px;
+    width: 507px;
+    accent-color: #0080FF;
+}
+.progress2{
+    margin-left: 20px;
+    height: 18px;
+    width: 507px;
+    accent-color: #00CC66;
+}
+.progress3{
+    margin-left: 20px;
+    height: 18px;
+    width: 507px;
+    accent-color: #FF8800;
+}
+.progress4{
+    margin-left: 20px;
+    height: 18px;
+    width: 507px;
+    accent-color: #ff333f;
+}
+
+
+.pie{
+    margin-left: 106px;
+}
+
+.bar_div {
+    margin-top: 23px;
+}
+
+.t1 {
+    font-size: 11.5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 25px;
+    color: rgb(134, 134, 134);
+    font-weight: bold;
+}
+
+
+
+

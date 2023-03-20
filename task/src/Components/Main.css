@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex:0.19
+}
+
+.main_body {
+  display: flex;
+  flex: 0.85;
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "chart.js": "^4.2.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-router-dom": "^6.9.0"
+  }
+}

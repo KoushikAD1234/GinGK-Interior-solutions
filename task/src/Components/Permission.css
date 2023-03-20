@@ -1,0 +1,87 @@
+.permission{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0.85;
+    background-color: white;
+    height: 100vh;
+    z-index: 2;
+}
+
+
+.head_permission{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 550px;
+    margin-left: 45px;
+}
+
+.button{
+    position: relative;
+    left: 43px;
+    top: 7px;
+    height: 45px;
+}
+
+.search_icon{
+    cursor:pointer;
+}
+
+
+.table {
+    position: relative;
+    top: -536px;
+    left: 45px;
+    width: 1173px;
+}
+
+.status {
+    color: rgb(5, 55, 155) !important;
+}
+
+.thead{
+    background-color: black;
+}
+
+.thead_name {
+    color: white !important;
+}
+
+.MuiTableContainer-root {
+    width: 105%;
+    overflow-x: auto;
+}
+
+.sicon{
+    transform: scale(0.8);
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/* .header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.profile {
+    margin-right: -56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profileImg {
+    height: 50px;
+}
+
+.profileName {
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.subName {
+    font-size: 10px;
+} */
